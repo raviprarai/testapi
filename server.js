@@ -23,8 +23,7 @@ connect();
 
 
 app.use("/api/User", require("./Router/userRouter"));
-// app.use("/api/admin", require("./admin/router/adminRouter"));
-// app.use("/api/subAdmin", require("./subAdmin/router/subAdminRouter"));
+
 
 
 app.listen(PORT, () => console.log(`Server started at PORT:${PORT}`));
